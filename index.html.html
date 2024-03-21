@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Table with JavaScript</title>
+</head>
+<body>
+    <h1> JavaScript draw a taber <h1>
+</body>
+<style>
+  table, th, td {
+    border: 1px solid black;
+   
+    padding: 5px;
+  }
+</style>
+<BODY>
+  
+<table>
+  <tr>
+    <h5><br> NAME: Leap Seyha<br>ID: 65 23 04 06<br></h5>
+  </tr>
+  <script>
+    let count = 1;
+    for (let i = 0; i < 5; i++) {
+      document.write("<tr>");
+      for (let j = 0; j < 5; j++) {
+        document.write("<td>" + count++ + "</td>");
+      }
+      document.write("</tr>");
+    }
+  </script>
+</table>
+</body>
+</html>
+</BODY>
+</head>
